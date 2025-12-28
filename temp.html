@@ -6,6 +6,19 @@
     <title>Temperature conversion</title>
 </head>
 <body>
+    <form>
+        <h1>Temperature Conversion:</h1>
+        <input type="number" id="temp" value="0"><br>
+        
+        <input type="radio" id="toFahrenheit" name="unit">
+        <label for="toFahrenheit">Celsius➡️Fahrenheit</label><br>
+
+         <input type="radio" id="toCelsius" name="unit">
+        <label for="toCelsius">Fahrenheit➡️Celsius</label><br>
+
+        <button type="submit" onclick="convert()">Submit</button><br>
+        <p id="result">Select unit</p>
+    </form>
     
 </body>
 </html>
